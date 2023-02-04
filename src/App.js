@@ -2,19 +2,26 @@ import Navbar from "./scenes/Navbar";
 import DotGroup from "./scenes/DotGroup";
 import Landing from "./scenes/Landing";
 import MySkills from "./scenes/MySkills";
+import Projects from "./scenes/Projects";
+import Testimonials from "./scenes/Testimonials";
+import Contact from "./scenes/Contact";
 import { useEffect, useState } from "react";
 import LineGradient from "./components/LineGradient";
-import Projects from "./scenes/Projects";
 import useMediaQuery from "./hooks/useMediaQuery";
+import { motion } from "framer-motion";
+
 
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
   const [isTopOfPage, setIsTopOfPage] = useState(true);
-  const isAboveMediumScreens = useMediaQuery("(min-width: 160px)");
+  const isDesktop = useMediaQuery("(min-width: 160px)");
 
-useEffect(() => {
-  const handleScroll = () => {
-    if (window.scrollY === 0) setIsTopOfPage(true);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY === 0) {
+        setIsTopOfPage(true);
+        setSelectedPage("home");
+      }
     if (window.scrollY !== 0) setIsTopOfPage(false);
   }
   window.addEventListener("scroll", handleScroll);
@@ -29,24 +36,51 @@ useEffect(() => {
         setSelectedPage={setSelectedPage} 
     />
     <div className="w-5/6 mx-auto md:h-full">
-      {isAboveMediumScreens && (
+      {isDesktop && (
         <DotGroup 
           selectedPage={selectedPage}
           setSelectedPage={setSelectedPage}
         />
       )}
-    <Landing setSelectedPage={setSelectedPage} />
-
+      <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("home")}
+      >
+        <Landing setSelectedPage={setSelectedPage} />  
+      </motion.div>
     </div>
     <LineGradient />
     <div className="w-5/6 mx-auto md:h-full">
-        <MySkills />
+      <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("skills")}
+      >
+          <MySkills />
+      </motion.div>
     </div>
     <LineGradient />
     <div className="w-5/6 mx-auto">
-        <Projects />
+      <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("projects")}
+      >
+          <Projects />
+      </motion.div>
     </div>
-
+    <LineGradient />
+      <div className="w-5/6 mx-auto md:h-full">
+        <motion.div
+          margin="0 0 -200px 0"
+          amount="all"
+          onViewportEnter={() => setSelectedPage("testimonials")}
+        >
+          <Testimonials />
+        </motion.div>
+      </div>
+      
     </div>
   );
 }

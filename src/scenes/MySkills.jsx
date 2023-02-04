@@ -20,7 +20,7 @@ const MySkills = () => {
                      }}
                 >
                     <p className="font-playfair font-semibold text-4xl mb-5" >
-                     MY <span className="text-red-500">SKILLS</span>
+                      MY <span className="text-red">SKILLS</span>
                     </p>
                     <LineGradient width="w-1/3" />
                     <p className="mt-10 mb-7">
@@ -31,7 +31,7 @@ const MySkills = () => {
                 <div className="mt-16 md:mt-0">
                     {isAboveLarge ? (
                        <div 
-                       className="relative z-0 ml-10 before:absolute before:-top-10 before:-left-20 before:w-full before:h-full before:border-2 before:border-blue-400 before:z-[-1]"
+                       className="relative z-0 ml-10 before:absolute before:-top-10 before:-left-20 before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
                        >
                            <img 
                                alt="skills"
@@ -70,7 +70,7 @@ const MySkills = () => {
                                 Experience
                             </p>
                         </div>
-                        <div className="w-1/2 md:w-3/4 h-32 bg-blue-500 absolute right-0 top-0 z-[-1]" />
+                        <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="mt-5">
                         Animi omnis inventore expedita odio soluta assumenda, provident magnam. Molestias fugiat, consequuntur nobis impedit sint asperiores enim.
@@ -96,10 +96,10 @@ const MySkills = () => {
                                 Innovative
                             </p>
                         </div>
-                        <div className="w-1/2 md:w-3/4 h-32 bg-red-300 absolute right-0 top-0 z-[-1]" />
+                        <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="mt-5">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae ex perferendis nulla, pariatur deleniti totam magni explicabo! Culpa rem reprehenderit ab. Pariatur dolores esse magnam assumenda illum voluptas nam labore.
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae ex perferendis nulla, pariatur deleniti totam magni explicabo! Culpa 
                     </p>
                 </motion.div>
 
@@ -122,7 +122,7 @@ const MySkills = () => {
                                 Imaginative
                             </p>
                         </div>
-                        <div className="w-1/2 md:w-3/4 h-32 bg-yellow-500 absolute right-0 top-0 z-[-1]" />
+                        <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="mt-5">
                         Animi omnis inventore expedita odio soluta assumenda, provident magnam. Molestias fugiat, consequuntur nobis impedit sint asperiores enim.
