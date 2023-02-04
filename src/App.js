@@ -4,6 +4,7 @@ import Landing from "./scenes/Landing";
 import MySkills from "./scenes/MySkills";
 import { useEffect, useState } from "react";
 import LineGradient from "./components/LineGradient";
+import Projects from "./scenes/Projects";
 import useMediaQuery from "./hooks/useMediaQuery";
 
 function App() {
@@ -41,6 +42,11 @@ useEffect(() => {
     <div className="w-5/6 mx-auto md:h-full">
         <MySkills />
     </div>
+    <LineGradient />
+    <div className="w-5/6 mx-auto">
+        <Projects />
+    </div>
+
     </div>
   );
 }
