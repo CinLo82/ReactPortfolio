@@ -24,7 +24,7 @@ const MySkills = () => {
                     </p>
                     <LineGradient width="w-1/3" />
                     <p className="mt-10 mb-7">
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere magnam vel maxime, voluptate tempora at.
+                        
                      </p>
                 </motion.div>
 
@@ -33,20 +33,20 @@ const MySkills = () => {
                        <div 
                        className="relative z-0 ml-10 before:absolute before:-top-10 before:-left-20 before:w-full before:h-full before:border-2 before:border-blue before:z-[-1]"
                        >
-                           <img 
+                            <img 
                                alt="skills"
                                className="z-10"
-                               src="assets/skills-image-png"
-                           />
+                               src="assets/skills-image.png"
+                            />
                        </div>
                    
-                   ) : (
+                    ) : (
                         <img 
                             alt="skills"
                             className="z-10"
                             src="../assets/skills-image.png"
                         />
-                   )}
+                    )}
                 </div>
              </div>
                 {/* SKILL */}
@@ -65,15 +65,15 @@ const MySkills = () => {
                 >
                     <div className="relative h-32">
                         <div className="z-10">
-                            <p className="font-playfair font-semibold text-5xl">01</p>
+                            <p className="font-playfair font-semibold text-3xl">Html-Css</p>
                             <p className="font-playfair font-semibold text-3xl mt-3">
-                                Experience
+                                JavaScript
                             </p>
                         </div>
                         <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="mt-5">
-                        Animi omnis inventore expedita odio soluta assumenda, provident magnam. Molestias fugiat, consequuntur nobis impedit sint asperiores enim.
+                    En cuanto a mis habilidades, tengo experiencia en el desarrollo web utilizando HTML, CSS y JavaScript. También estoy aprendiendo TypeScript para mejorar mi código.
                     </p>
                 </motion.div>
 
@@ -91,15 +91,15 @@ const MySkills = () => {
                 >
                     <div className="relative h-32">
                         <div className="z-10">
-                            <p className="font-playfair font-semibold text-5xl">02</p>
+                            <p className="font-playfair font-semibold text-3xl">React-Next</p>
                             <p className="font-playfair font-semibold text-3xl mt-3">
-                                Innovative
+                                Node-Express
                             </p>
                         </div>
                         <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="mt-5">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae ex perferendis nulla, pariatur deleniti totam magni explicabo! Culpa 
+                        Trabajo con frameworks como React, Next.js, Node.js y Express.js; y utilizo herramientas como Tailwind, Bootstrap y Figma para crear diseños modernos y responsivos. 
                     </p>
                 </motion.div>
 
@@ -117,15 +117,21 @@ const MySkills = () => {
                 >
                     <div className="relative h-32">
                         <div className="z-10">
-                            <p className="font-playfair font-semibold text-5xl">03</p>
+                            <p className="font-playfair font-semibold text-3xl">MongoDB</p>
                             <p className="font-playfair font-semibold text-3xl mt-3">
-                                Imaginative
+                                MySQL-Posgrest
+                            </p>
+                            <p className="font-playfair font-semibold text-3xl mt-3">
+                                GitHub
                             </p>
                         </div>
                         <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
                     </div>
                     <p className="mt-5">
-                        Animi omnis inventore expedita odio soluta assumenda, provident magnam. Molestias fugiat, consequuntur nobis impedit sint asperiores enim.
+                    Además, estoy familiarizada en el uso de bases de datos como MongoDB, MySQL y PostgreSQL. <br/>
+                    Utilizo GitHub para colaborar en proyectos y mantener un flujo de trabajo eficiente. <br/>
+                    Estoy comprometida en aprender y crecer en el desarrollo web, y estoy emocionada por aportar soluciones creativas y de calidad a proyectos emocionantes. <br/>
+                    ¡Gracias por tu interés! 
                     </p>
                 </motion.div>
                 </div>
