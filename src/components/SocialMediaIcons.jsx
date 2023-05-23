@@ -4,11 +4,11 @@ const SocialMediaIcons = () => {
         <div className="flex justufy-center md:justify-start my-10 gap-7" >
             <a 
               className="hover:opacity-50 transition duration-500"
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/cinlo-losada-b1b474259/"
               target="blank"
               rel="noreferrer"
             >
-                <img alt="linkedin-link" src="../assets/linkedin.png" />
+                <img alt="linkedin-link" src="../assets/linkedin.png" width="50%"/>
             </a>
 
             <a 
@@ -17,25 +17,25 @@ const SocialMediaIcons = () => {
               target="blank"
               rel="noreferrer"
             >
-                <img alt="twitter-link" src="../assets/twitter.png" />
+                <img alt="twitter-link" src="../assets/twitter.png" width="50%"/>
             </a>
 
             <a 
               className="hover:opacity-50 transition duration-500"
-              href="https://facebook.com"
+              href="https://github.com/CinLo82"
               target="blank"
               rel="noreferrer"
             >
-                <img alt="facebook-link" src="../assets/facebook.png" />
+                <img alt="github-link" src="../assets/github.png" width="50%"/>
             </a>
 
             <a 
               className="hover:opacity-50 transition duration-500"
-              href="https://instagram.com"
+              href="https://www.instagram.com/cinlo02/"
               target="blank"
               rel="noreferrer"
             >
-                <img alt="instagram-link" src="../assets/instagram.png" />
+                <img alt="instagram-link" src="../assets/instagram1.png" width="50%"/>
             </a>
         </div>
     );

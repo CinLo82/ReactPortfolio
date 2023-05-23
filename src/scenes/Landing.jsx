@@ -21,14 +21,14 @@ const Landing = (setSelectedPage) => {
                     >
                         <img 
                             alt="profile"
-                            className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-                            src="assets/profile.png"
+                            className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full  max-w-[400px] "
+                            src="/assets/profile-image.png"
                         />
                     </div>
                 ) : (
                     <img 
                         alt="profile"
-                        className="z-10 w-full max-w-[400px] md:max-w-[600px]"
+                        className="z-10 w-full max-w-[400px]"
                         src="assets/profile-image.png"
                     />
                 )}
@@ -53,7 +53,7 @@ const Landing = (setSelectedPage) => {
                             </span>
                         </p>
                         <p className="mt-10 mb-7 text-sm text-center md:text-start" >
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit aut dolorum vero laudantium nesciunt iusto consequatur! Earum eius incidunt
+                        ¡Hola! Soy CinLo, una apasionada del desarrollo web. Estoy comprometida en aprender y crecer en este campo, y mi objetivo es expandir mis habilidades y conocimientos para colaborar en proyectos emocionantes y aportar soluciones creativas. Aunque no tengo experiencia laboral en tecnología, estoy dispuesta a asumir nuevos retos y crecer profesionalmente.
                         </p>
                     </motion.div>
 

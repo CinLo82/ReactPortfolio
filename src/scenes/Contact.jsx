@@ -42,7 +42,7 @@ const Contact = () => {
       </motion.div>
 
       {/* FORM & IMAGE */}
-      <div className="md:flex md:justify-between gap-16 mt-5">
+      <div className=" mt-5">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -54,7 +54,7 @@ const Contact = () => {
           }}
           className="basis-1/2 flex justify-center"
         >
-          <img src="../assets/contact-image.jpeg" alt="contact" />
+          <img src="../assets/contact-image.jpeg" alt="contact" className="w-full max-w-[400px]"/>
         </motion.div>
 
         <motion.div
