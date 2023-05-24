@@ -28,8 +28,10 @@ const Landing = (setSelectedPage) => {
                 ) : (
                     <img 
                         alt="profile"
-                        className="z-10 w-full max-w-[400px]"
+                        className="z-10 w-full max-w-[400px] rounded-t-[400px] border border-red border-5" 
                         src="assets/profile-image.png"
+                        
+                        
                     />
                 )}
             </div>

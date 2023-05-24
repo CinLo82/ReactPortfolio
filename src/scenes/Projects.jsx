@@ -58,9 +58,7 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Aliquam, amet dui feugiat facilisi dui. Aliquam aliquet integer ut
-          fames odio in at. At magna ornare dictum lectus. Purus massa morbi
-          purus nec eget eleifend ut elit.
+          En mi portafolio personal podrás encontrar ejemplos de mi trabajo, donde he demostrado mi capacidad para crear diseños atractivos y funcionales utilizando las tecnologías mencionadas. Además, podrás explorar mis proyectos en GitHub
         </p>
       </motion.div>
 
