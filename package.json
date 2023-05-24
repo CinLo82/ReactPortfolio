@@ -17,6 +17,10 @@
     "tailwindcss": "^3.2.4",
     "web-vitals": "^2.1.4"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CinLo82/ReactPortfolio.git"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -41,7 +45,9 @@
       "last 1 safari version"
     ]
   },
+  "homepage": "https://github.com/CinLo82/ReactPortfolio#src/index.js",
   "devDependencies": {
     "css-loader": "^6.7.3"
   }
+  
 }
