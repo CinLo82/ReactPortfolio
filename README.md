@@ -1,6 +1,4 @@
-# React-Portfolio
+## ReactPorfolio
 
-- React 
-- Tailwind CSS 
-- Framer Motion 
-- React Hook Form
+
+

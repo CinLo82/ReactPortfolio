@@ -45,7 +45,11 @@
       "last 1 safari version"
     ]
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/CinLo82/ReactPortfolio#src/index.js",
+=======
+  "homepage": "https://github.com/CinLo82/ReactPortfolio#readme",
+>>>>>>> 557196abf6c4e35bf8d252acf3f75d3f454fdfd7
   "devDependencies": {
     "css-loader": "^6.7.3"
   }
